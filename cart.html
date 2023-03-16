@@ -1,0 +1,151 @@
+<html>
+
+<head>
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body class="position-relative" style="background-color: #000;">
+    <nav class="navbar navbar-expand-lg navbar-dark text-light bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo_light.png" alt="Bootstrap" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-danger" href="./news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./about.html">About</a>
+                    </li>
+
+                </ul>
+                <div class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">
+                                <i class="bi bi-search"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="./cart.html">
+                                <i class="bi bi-cart-fill"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./login.html">
+                                <i class="bi bi-person-circle"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="vh-100 w-100 overflow-hidden position-absolute" style="top: 0; z-index: -9;">
+        <div class="" style="z-index: -1; pointer-events: none;">
+            <img class="img-fluid" src="./images/login_background.png" style="object-fit: cover;" />
+        </div>
+    </div>
+    <div class="container-fluid row p-0 m-0 mt-5 text-light">
+
+        <div class="d-flex flex-row align-items-center">
+            <div class="me-4">
+                <input type="checkbox" />
+            </div>
+            <div class="me-4">
+                <img src="./images/cart_item_1.png" style="max-height: 100px;" />
+            </div>
+            <div class="d-flex flex-column me-5">
+                <h5 class="fw-bold">Coziest's "Sora" Tee</h5>
+                <p class="opacity-50">SMALL</p>
+            </div>
+            <div class="container row">
+                <div class="col-4 my-auto">
+                    PHP 600
+                </div>
+                <div class="col-4 my-auto">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control bg-black border-dark text-light" id="floatingInput"
+                            value="2">
+                        <label for="floatingInput">Quantity</label>
+                    </div>
+                </div>
+                <div class="col-4 row my-auto m-0 p-0">
+                    <p class="fw-bold text-danger mx-auto text-end pe-5">PHP 1,200</p>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-5" />
+        <div class="d-flex flex-row align-items-center">
+            <div class="me-4">
+                <input type="checkbox" />
+            </div>
+            <div class="me-4">
+                <img src="./images/cart_item_1.png" style="max-height: 100px;" />
+            </div>
+            <div class="d-flex flex-column me-5">
+                <h5 class="fw-bold">Coziest's "Wiki" Tee</h5>
+                <p class="opacity-50">SMALL (2), LARGE</p>
+            </div>
+            <div class="container row  my-auto">
+                <div class="col-4 my-auto">
+                    PHP 600
+                </div>
+                <div class="col-4  my-auto">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control bg-black border-dark text-light" id="floatingInput"
+                            value="3">
+                        <label for="floatingInput">Quantity</label>
+                    </div>
+                </div>
+                <div class="col-4 row my-auto m-0 p-0">
+                    <p class="fw-bold text-danger mx-auto text-end pe-5">PHP 1,800</p>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-5" />
+    </div>
+
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="./" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">© 2023 coziest, Ernalie Di</span>
+            </div>
+            <!--     
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#twitter"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#facebook"></use>
+                        </svg></a>
+                </li>
+            </ul>
+         -->
+        </footer>
+    </div>
+</body>
+
+</html>

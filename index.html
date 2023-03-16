@@ -1,15 +1,15 @@
 <html>
 
 <head>
-    <link href="/css/bootstrap.css" rel="stylesheet">
-    <link href="/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap-icons.css" rel="stylesheet">
 </head>
 
 <body class="position-relative">
     <nav class="navbar navbar-expand-lg bg-white">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/images/logo.png" alt="Bootstrap" height="24">
+                <img src="./images/logo.png" alt="Bootstrap" height="24">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -19,33 +19,33 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
                     <li class="nav-item">
-                        <a class="nav-link active text-danger" href="/homepage.html">Home</a>
+                        <a class="nav-link active text-danger" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="/shop.html">Shop</a>
+                        <a class="nav-link text-dark" href="./shop.html">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="/news.html">News</a>
+                        <a class="nav-link text-dark" href="./news.html">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="/about.html">About</a>
+                        <a class="nav-link text-dark" href="./about.html">About</a>
                     </li>
 
                 </ul>
                 <div class="d-flex">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">
+                            <a class="nav-link text-light" href="#">
                                 <i class="bi bi-search"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">
+                            <a class="nav-link text-light" href="./cart.html">
                                 <i class="bi bi-cart-fill"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">
+                            <a class="nav-link text-light" href="./login.html">
                                 <i class="bi bi-person-circle"></i>
                             </a>
                         </li>
@@ -54,8 +54,8 @@
             </div>
         </div>
     </nav>
-    <div class="vh-100 w-100 position-absolute overflow-hidden" style="z-index: -1; pointer-events: none;">
-        <img class="img-fluid" src="/images/home_background.png" style="object-fit: cover;" />
+    <div class="vh-100 w-100 position-absolute" style="z-index: -1; pointer-events: none;">
+        <img class="img-fluid" src="./images/home_background.png" style="object-fit: cover;" />
     </div>
     <div class="container-fluid row p-0 m-0">
         <div class="col-md-6 col-12 my-auto mx-auto">
@@ -69,21 +69,31 @@
             </div>
             <div class="row">
                 <div class="d-flex flex-row">
-                    <button class="btn btn-danger rounded-4 me-3">LOG IN</button>
+                    <a href="./login.html" class="btn btn-danger rounded-4 me-3">LOG IN</a>
                     <button class="btn border-2 border border-danger text-danger rounded-4">SIGN UP</button>
                 </div>
             </div>
         </div>
         <div class="col-md-6 col-12 p-0">
             <img class="img-fluid me-auto d-none d-md-block float-end position-absolute"
-                style="max-height: 100vh; bottom: 25%; right: 30%" src="/images/home_indicator.png" />
-            <img class="img-fluid me-auto float-end" style="height: 100vh;" src="/images/home_model.png" />
+                style="max-height: 100vh; bottom: 55%; right: 30%" src="./images/home_indicator.png" />
+            <img class="img-fluid me-auto float-end" style="height: 100vh;" src="./images/home_model.png" />
+        </div>
+    </div>
+    <div class="row container px-4 opacity-50">
+        <p>SOCIALS</p>
+        <div class="container d-flex flex-row mb-4 h3">
+            <i class="bi bi-facebook me-3"></i>
+            <i class="bi bi-instagram me-3"></i>
+            <i class="bi bi-twitter me-3"></i>
+            <i class="bi bi-tiktok me-3"></i>
+            <i class="bi bi-bag"></i>
         </div>
     </div>
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
             <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <a href="./" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                     <svg class="bi" width="30" height="24">
                         <use xlink:href="#bootstrap"></use>
                     </svg>

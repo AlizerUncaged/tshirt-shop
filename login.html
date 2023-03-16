@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body class="position-relative" style="background-color: #000;">
+    <nav class="navbar navbar-expand-lg navbar-dark text-light bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo_light.png" alt="Bootstrap" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-danger" href="./news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./about.html">About</a>
+                    </li>
+
+                </ul>
+                <div class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">
+                                <i class="bi bi-search"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./cart.html">
+                                <i class="bi bi-cart-fill"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="./login.html">
+                                <i class="bi bi-person-circle"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="vh-100 w-100 overflow-hidden position-absolute" style="top: 0; z-index: -9;">
+        <div class="" style="z-index: -1; pointer-events: none;">
+            <img class="img-fluid" src="./images/login_background.png" style="object-fit: cover;" />
+        </div>
+    </div>
+    <div class="container-fluid row p-0 m-0 mt-5 text-light fw-bold">
+        <div class="container d-flex flex-column mb-4">
+            <div class="row mx-auto">
+                <h1>Login</h1>
+            </div>
+        </div>
+        <div class="col-6 mx-auto">
+            <form class="col-12 col-md-12 mx-auto row">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control bg-dark rounded-4" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control bg-dark rounded-4" id="exampleInputPassword1">
+                </div>
+                <button type="submit" style="width: 200px"
+                    class="btn btn-light rounded-4 px-4 mx-auto mb-4">Login</button>
+                <hr>
+            </form>
+            <div class="col-12 col-md-12">
+                <p class="text-center">Don't have an account? SIGN UP!</p>
+                <div class="d-flex flex-row align-items-center gx-5 row container">
+                    <div class="col-6">
+                        <button class="btn btn-dark w-100">
+                            <i class="bi bi-google"></i> Google
+                        </button>
+                    </div>
+                    <div class="col-6">
+                        <button class="btn btn-dark w-100">
+                            <i class="bi bi-facebook"></i> Facebook
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="./" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">© 2023 coziest, Ernalie Di</span>
+            </div>
+            <!--     
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#twitter"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#facebook"></use>
+                        </svg></a>
+                </li>
+            </ul>
+         -->
+        </footer>
+    </div>
+</body>
+
+</html>
